@@ -6,13 +6,12 @@ AllCops:
   # to ignore them, so only the ones explicitly set in this file are enabled.
   DisabledByDefault: true
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120 # Try to reduce this over time
 
   # Prefer &&/|| over and/or.
 Style/AndOr:
   Enabled: true
-
 
 # Align `when` with `case`.
 Layout/CaseIndentation:
@@ -137,7 +136,7 @@ Style/StringLiterals:
   EnforcedStyle: double_quotes
 
 # Detect hard tabs, no hard tabs.
-Layout/Tab:
+Layout/IndentationStyle:
   Enabled: true
 
 # Blank lines should not have any spaces.
